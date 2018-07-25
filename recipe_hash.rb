@@ -52,6 +52,7 @@ end
 def amounts(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient, amount|
     put amount
+  end
 end
 
 #6: Return the number of ingredients in the `perfect_10_recipe` hash.
